@@ -1,0 +1,56 @@
+{
+  "test_environment": "Taiwan Contact Info Validation",
+  "generated_date": "2026-10-10",
+  "records": [
+    {
+      "id": 1,
+      "name": "陳建華",
+      "id_number": "A123456789",
+      "gender": "M",
+      "mobile": "0912-345-678",
+      "phone": "(02) 2345-6789",
+      "postal_code": "100011",
+      "address": "臺北市中正區重慶南路一段122號"
+    },
+    {
+      "id": 2,
+      "name": "林雅婷",
+      "id_number": "B223456781",
+      "gender": "F",
+      "mobile": "0928-112-233",
+      "phone": "(04) 2228-9111",
+      "postal_code": "407610",
+      "address": "臺中市西屯區臺灣大道三段99號"
+    },
+    {
+      "id": 3,
+      "name": "張志豪",
+      "id_number": "D123456787",
+      "gender": "M",
+      "mobile": "0935-888-999",
+      "phone": "(06) 299-1111",
+      "postal_code": "708050",
+      "address": "臺南市安平區永華路二段6號"
+    },
+    {
+      "id": 4,
+      "name": "黃美珍",
+      "id_number": "E223456788",
+      "gender": "F",
+      "mobile": "0955-443-322",
+      "phone": "(07) 336-8333",
+      "postal_code": "802721",
+      "address": "高雄市苓雅區四維三路2號"
+    },
+    {
+      "id": 5,
+      "name": "王俊凱",
+      "id_number": "F123456785",
+      "gender": "M",
+      "mobile": "0972-667-788",
+      "phone": "(02) 2960-3456",
+      "postal_code": "220242",
+      "address": "新北市板橋區中山路一段161號"
+    }
+  ]
+}

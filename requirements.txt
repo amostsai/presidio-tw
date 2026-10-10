@@ -1,0 +1,11 @@
+presidio-analyzer>=2.2.364,<3
+presidio-anonymizer>=2.2.364,<3
+ckip-transformers>=0.3.4,<0.4
+PyYAML>=6,<7
+regex>=2025.1.1
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.20,<1
+lxml>=5,<7
+PyMuPDF>=1.26,<2
+Jinja2>=3.1,<4

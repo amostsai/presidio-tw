@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.superpowers/
+tmp/
+*.mapping.json
+.env
+config/*.bak
+docker-config-backup/
+models-backup/
+presidio-tw-image.tar
+dist/

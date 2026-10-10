@@ -1,0 +1,20 @@
+name: presidio-tw
+
+services:
+  presidio-tw:
+    build:
+      context: .
+    image: presidio-tw:local
+    init: true
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      - "127.0.0.1:${WEB_PORT:-8080}:8000"
+    volumes:
+      - privacy-settings:/data
+      - model-cache:/models
+    stop_grace_period: 30s
+
+volumes:
+  privacy-settings:
+  model-cache:

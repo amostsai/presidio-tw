@@ -1,0 +1,42 @@
+.resizable-grid {
+  grid-template-columns: minmax(0,var(--left-pane,50%)) 12px minmax(0,1fr);
+  gap: 0;
+}
+.resizable-grid > * { min-width: 0; }
+.pane-divider {
+  align-self: stretch;
+  position: relative;
+  cursor: col-resize;
+  touch-action: none;
+  background: #f4f7f2;
+  border-inline: 1px solid var(--line);
+  min-height: 80px;
+}
+.pane-divider::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 35px;
+  width: 4px;
+  height: 40px;
+  border-radius: 3px;
+  background: #b9cec4;
+}
+.pane-divider:hover,.pane-divider:focus-visible {
+  background: #dcece1;
+  outline: 2px solid var(--teal);
+  outline-offset: -2px;
+}
+.resizing-panes,.resizing-panes * { cursor: col-resize!important; user-select: none!important; }
+.settings-grid.resizable-grid {
+  grid-template-columns: minmax(0,var(--left-pane,62%)) 24px minmax(0,1fr);
+}
+.settings-grid .pane-divider { width: 12px; justify-self: center; }
+.settings-exclusion { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.settings-exclusion select { width: 100%; margin-bottom: 8px; }
+.settings-exclusion textarea { min-height: 90px; }
+.settings-card-title .secondary { white-space: nowrap; font-size: 11px; padding: 8px; }
+@media(max-width:760px) {
+  .resizable-grid,.settings-grid.resizable-grid { grid-template-columns: minmax(0,1fr); }
+  .pane-divider { display: none; }
+}

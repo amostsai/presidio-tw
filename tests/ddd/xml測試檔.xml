@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestDataset schema="TaiwanContactInfo" version="1.0">
+  <Users>
+    <User id="1">
+      <Name>陳建華</Name>
+      <NationalID>A123456789</NationalID>
+      <MobilePhone>0912-345-678</MobilePhone>
+      <LandlinePhone>(02) 2345-6789</LandlinePhone>
+      <Address postalCode="100011">臺北市中正區重慶南路一段122號</Address>
+    </User>
+    <User id="2">
+      <Name>林雅婷</Name>
+      <NationalID>B223456781</NationalID>
+      <MobilePhone>0928-112-233</MobilePhone>
+      <LandlinePhone>(04) 2228-9111</LandlinePhone>
+      <Address postalCode="407610">臺中市西屯區臺灣大道三段99號</Address>
+    </User>
+    <User id="3">
+      <Name>張志豪</Name>
+      <NationalID>D123456787</NationalID>
+      <MobilePhone>0935-888-999</MobilePhone>
+      <LandlinePhone>(06) 299-1111</LandlinePhone>
+      <Address postalCode="708050">臺南市安平區永華路二段6號</Address>
+    </User>
+    <User id="4">
+      <Name>黃美珍</Name>
+      <NationalID>E223456788</NationalID>
+      <MobilePhone>0955-443-322</MobilePhone>
+      <LandlinePhone>(07) 336-8333</LandlinePhone>
+      <Address postalCode="802721">高雄市苓雅區四維三路2號</Address>
+    </User>
+    <User id="5">
+      <Name>王俊凱</Name>
+      <NationalID>F123456785</NationalID>
+      <MobilePhone>0972-667-788</MobilePhone>
+      <LandlinePhone>(02) 2960-3456</LandlinePhone>
+      <Address postalCode="220242">新北市板橋區中山路一段161號</Address>
+    </User>
+  </Users>
+</TestDataset>
